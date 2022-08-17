@@ -1,0 +1,42 @@
+:root {
+    --black: #191E29;
+    --blue: #273B74;
+    --green: #3DB288;
+    --light-black: #2D3247;
+    --white: #eeeeee;
+}
+.container-home {
+    padding-top: 6rem;
+    height: 100vh;
+    background-color: wheat;
+}
+.photo, .linkedin, .cv, .github {
+    border: 2px solid var(--black);
+    border-radius: 50%;
+}
+.photo {
+    width: 15rem;
+    height: 15rem;
+}
+.circles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+}
+.social-media div i {
+    font-size: 1.6rem;
+}
+.linkedin, .cv, .github {
+    width: 4rem;
+    height: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,5 +1,6 @@
 /* import all css */
 @import './nav.css';
+@import './home.css';
 
 * {
     padding: 0;
