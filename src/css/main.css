@@ -19,3 +19,7 @@
     --light-black: #2D3247;
     --white: #eeeeee;
 }
+*::selection {
+    background-color: var(--blue);
+    color: var(--white);
+}
