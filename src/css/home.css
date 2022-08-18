@@ -85,32 +85,46 @@ body {
     font-size: 1rem;
 }
 .item-sm {
-    transition: .2s all;
+    transition: .3s all;
 }
-.item-sm,
-.text button {
-    position: relative;
-    overflow: hidden;
-    transform: .8s all;
-}
-.item-sm:hover,
-.text button:hover {
+.item-sm:hover {
+    background-color: var(--blue);
     color: var(--white);
 }
-.item-sm::before,
-.text button::before {
+/* tooltip */
+#tooltip {
+    position: relative;
+    /* cursor: pointer;
+    border-bottom: 2px dotted;
+    padding: 7px; */
+}
+#tooltipText {
+    position: absolute;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 10px 15px;
+    border-radius: 7px;
+
+    white-space: nowrap;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+#tooltipText::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: -50px;
-    width: 0;
-    height: 100%;
-    background-color: var(--blue);
-    transform: skewX(35deg);
-    z-index: -1;
-    transition: .8s all;
+    left: 50%;
+    top: -65%;
+    transform: translateX(-50%) rotateX(180deg);
+    border: 15px solid;
+    border-color: var(--black) #0000 #0000 #0000;
 }
-.item-sm:hover::before,
-.text button:hover::before {
-    width: 200%;
+#tooltip:hover #tooltipText {
+    top: 130%;
+    visibility: visible;
+    opacity: 1;
 }
