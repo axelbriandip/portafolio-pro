@@ -1,7 +1,9 @@
 /* import all css */
 @import './nav.css';
 @import './home.css';
-@import './col.css';
+/* @import './col.css'; */
+@import './col2.css';
+@import './sobre-mi.css';
 
 * {
     padding: 0;

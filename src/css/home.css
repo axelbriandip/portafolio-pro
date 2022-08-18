@@ -16,6 +16,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
+    
+    /* background-image: linear-gradient(90deg, var(--green), var(--white)); */
 }
 /* circles */
 .photo, .linkedin, .cv, .github {
@@ -142,12 +144,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 .footer-home p {
     font-size: 1.2rem;
 }
-.footer-home i {
+.footer-home .arrow-next {
     font-size: 2rem;
     margin-top: 1rem;
     color: var(--white);
@@ -157,7 +159,7 @@ body {
     cursor: pointer;
     transition: .2s all;
 }
-.footer-home i:hover {
+.footer-home .arrow-next:hover {
     color: var(--blue);
     background-color: var(--white);
 }
