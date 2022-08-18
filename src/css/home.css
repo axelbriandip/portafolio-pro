@@ -1,3 +1,5 @@
+@import './col.css';
+
 :root {
     --black: #191E29;
     --blue: #273B74;
@@ -14,7 +16,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 4rem;
+    gap: 1rem;
 }
 /* circles */
 .photo, .linkedin, .cv, .github {
@@ -52,7 +54,10 @@ body {
 }
 /* text */
 .text {
-    padding-top: 1rem;
+    padding: .5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .text .name {
     font-size: 1.5rem;
@@ -78,25 +83,25 @@ body {
     font-weight: 700;
     font-size: 1rem;
     transition: .2s all;
+    width: 10rem;
 }
 .text .description {
     margin-top: 1rem;
     margin-bottom: 2rem;
     font-size: 1rem;
 }
-.item-sm {
+.item-sm,
+.btn-contactame {
     transition: .3s all;
 }
-.item-sm:hover {
+.item-sm:hover,
+.btn-contactame:hover {
     background-color: var(--blue);
     color: var(--white);
 }
 /* tooltip */
 #tooltip {
     position: relative;
-    /* cursor: pointer;
-    border-bottom: 2px dotted;
-    padding: 7px; */
 }
 #tooltipText {
     position: absolute;
@@ -127,4 +132,9 @@ body {
     top: 130%;
     visibility: visible;
     opacity: 1;
+}
+@media screen and (max-width: 767px) {
+    .container-home {
+        gap: 4rem;
+    }
 }
