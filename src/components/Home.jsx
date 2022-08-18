@@ -1,24 +1,32 @@
 import React from 'react';
 
+// import img
+import photo from '../img/foto-perfil1.jpg';
+
+// import cv
+import cv from '../CV-abd.pdf';
+
 const Home = () => {
     return (
         <section className='container-home'>
             {/* circles */}
             <article className="circles col-5 col-s-12">
-                <div className="photo animate__animated animate__backInDown"></div>
+                <div className="photo animate__animated animate__backInDown">
+                    <img src={photo} alt="photo"/>
+                </div>
                 <div className="social-media animate__animated animate__backInLeft">
-                    <div className="item-sm linkedin" id='tooltip'>
+                    <a href='https://www.linkedin.com/in/axelbriandip/' target='_blank' className="item-sm linkedin" id='tooltip'>
                         <i className="fa-brands fa-linkedin-in"></i>
                         <span id='tooltipText'>Visitar Linkedin</span>
-                    </div>
-                    <div className="item-sm cv" id='tooltip'>
+                    </a>
+                    <a href={cv} download='CV - Axel Brian Dip.pdf' className="item-sm cv" id='tooltip'>
                         <i className="fa-solid fa-file"></i>
                         <span id='tooltipText'>Descargar CV</span>
-                    </div>
-                    <div className="item-sm github" id='tooltip'>
+                    </a>
+                    <a href='https://github.com/axelbriandip' target='_blank' className="item-sm github" id='tooltip'>
                         <i className="fa-brands fa-github"></i>
                         <span id='tooltipText'>Visitar Github</span>
-                    </div>
+                    </a>
                 </div>
             </article>
             {/* text */}
@@ -28,7 +36,7 @@ const Home = () => {
                 <p className='description'>Me dedico al diseño, creación, realización y mantenimiento de páginas y/o aplicaciones web.</p>
                 <button className='btn-contactame'>Contactame</button>
             </article>
-            <article className="footer-home col-12">
+            <article className="footer-home col-12 animate__animated animate__backInUp">
                 <p>¿Te cuento un poco más sobre mi?</p>
                 <i className="fa-solid fa-circle-arrow-down"></i>
             </article>

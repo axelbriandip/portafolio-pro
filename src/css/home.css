@@ -19,7 +19,7 @@ body {
 }
 /* circles */
 .photo, .linkedin, .cv, .github {
-    border: 2px solid var(--black);
+    border: 2px solid var(--blue);
     border-radius: 50%;
 }
 .photo {
@@ -37,7 +37,12 @@ body {
     justify-content: space-between;
     width: 15rem;
 }
-.social-media div i {
+.social-media a{
+    color: var(--blue);
+    text-decoration: none;
+    background-color: var(--white);
+}
+.social-media a i {
     font-size: 1.6rem;
 }
 .linkedin, .cv, .github {
@@ -49,7 +54,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    border: 2px solid var(--black);
+    border: 2px solid var(--blue);
 }
 /* text */
 .text {
@@ -73,11 +78,11 @@ body {
     line-height: 1.25;
 }
 .text button {
-    border: 2px solid var(--black);
+    border: 2px solid var(--blue);
     border-radius: .5rem;
     padding: .5rem;
-    background-color: inherit;
-    color: var(--black);
+    background-color: var(--white);
+    color: var(--blue);
     cursor: pointer;
     font-weight: 700;
     font-size: 1rem;
@@ -145,12 +150,16 @@ body {
 .footer-home i {
     font-size: 2rem;
     margin-top: 1rem;
-    color: var(--black);
+    color: var(--white);
+    border: 2px solid var(--blue);
+    border-radius: 50%;
+    background-color: var(--blue);
     cursor: pointer;
     transition: .2s all;
 }
 .footer-home i:hover {
     color: var(--blue);
+    background-color: var(--white);
 }
 /* responsive */
 @media screen and (max-width: 767px) {
@@ -163,4 +172,10 @@ body {
     .footer-home {
         margin-top: 0;
     }
+}
+.photo {
+    overflow: hidden;
+}
+.photo img {
+    width: 100%;
 }
