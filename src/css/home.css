@@ -5,11 +5,18 @@
     --light-black: #2D3247;
     --white: #eeeeee;
 }
-.container-home {
-    padding-top: 6rem;
-    height: 100vh;
-    background-color: wheat;
+body {
+    background-image: linear-gradient(90deg, var(--green), var(--white));
 }
+.container-home {
+    padding: 6rem 2rem 2rem;
+    /* height: 100vh; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+/* circles */
 .photo, .linkedin, .cv, .github {
     border: 2px solid var(--black);
     border-radius: 50%;
@@ -35,8 +42,75 @@
 .linkedin, .cv, .github {
     width: 4rem;
     height: 4rem;
+    cursor: pointer;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    border: 2px solid var(--black);
+}
+/* text */
+.text {
+    padding-top: 1rem;
+}
+.text .name {
+    font-size: 1.5rem;
+}
+.text .name span {
+    color: var(--blue);
+    font-weight: 700;
+}
+.fa-hand {
+    color: var(--blue);
+}
+.text .title {
+    font-size: 2.5rem;
+    line-height: 1.25;
+}
+.text button {
+    border: 2px solid var(--black);
+    border-radius: .5rem;
+    padding: .5rem;
+    background-color: inherit;
+    color: var(--black);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: .2s all;
+}
+.text .description {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+.item-sm {
+    transition: .2s all;
+}
+.item-sm,
+.text button {
+    position: relative;
+    overflow: hidden;
+    transform: .8s all;
+}
+.item-sm:hover,
+.text button:hover {
+    color: var(--white);
+}
+.item-sm::before,
+.text button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background-color: var(--blue);
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: .8s all;
+}
+.item-sm:hover::before,
+.text button:hover::before {
+    width: 200%;
 }
