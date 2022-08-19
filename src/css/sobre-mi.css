@@ -2,8 +2,16 @@
     padding: 0 2rem 2rem 2rem;
 }
 .container-sobre-mi article {
-    padding: 1.5rem;
     text-align: justify;
+}
+.container-sobre-mi article:nth-child(1) {
+    padding-bottom: 2rem;
+}
+.container-sobre-mi article:nth-child(2) {
+    padding-right: 1rem;
+}
+.container-sobre-mi article:nth-child(3) {
+    padding-left: 1rem;
 }
 .container-sobre-mi article h2 {
     display: inline;
@@ -23,7 +31,7 @@
     flex-direction: column;
     align-items: center;
     padding: 0;
-    /* margin-top: 5rem; */
+    margin-top: 4.5rem;
 }
 .footer-sobremi p {
     font-size: 1.2rem;
@@ -48,4 +56,17 @@
     color: var(--blue);
     font-weight: 700;
     text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+    .container-sobre-mi article:nth-child(1) {
+        padding-bottom: 0;
+    }
+    .container-sobre-mi article:nth-child(2) {
+        padding-right: 0;
+        padding-top: 2rem;
+    }
+    .container-sobre-mi article:nth-child(3) {
+        padding-left: 0;
+        padding-top: 2rem;
+    }
 }
