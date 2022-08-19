@@ -6,6 +6,7 @@
 @import './sobre-mi.css';
 @import './abilities.css';
 @import './projects.css';
+@import './footer.css';
 
 * {
     padding: 0;

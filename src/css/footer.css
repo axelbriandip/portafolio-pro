@@ -1,0 +1,17 @@
+footer {
+    padding: 1.5rem 0;
+    text-align: center;
+}
+footer p {
+    font-size: 1.1rem;
+    color: var(--black);
+}
+footer p a {
+    font-weight: 700;
+    text-decoration: none;
+    transition: .2s all;
+    color: var(--black);
+}
+footer p a:hover {
+    color: var(--blue);
+}
