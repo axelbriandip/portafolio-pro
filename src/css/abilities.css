@@ -1,0 +1,95 @@
+.section-abilities {
+    padding: 2rem;
+    height: 100vh;
+}
+.section-abilities h2 {
+    padding-top: 2rem;
+}
+.section-abilities p {
+    padding-bottom: 1.5rem;
+}
+
+hr {
+    border-color: var(--blue);
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    height: 175px;    
+    width: 275px;
+
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+
+    border-radius: .5rem;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flip-card-front i {
+    font-size: 7rem;
+    color: var(--blue);
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: var(--blue);
+    color: white;
+    transform: rotateY(180deg);
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-weight: 300;
+    text-align: justify;
+}
+.container-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+@media screen and (max-width: 767px) {
+    .container-cards {
+        flex-direction: column;
+    }
+    .container-cards .flip-card:nth-child(2),
+    .container-cards .flip-card:nth-child(4),
+    .container-cards .flip-card:nth-child(6) {
+        align-self: flex-end;
+    }
+}

@@ -25,32 +25,6 @@
     color: var(--black);
     margin-top: .5rem;
 }
-/* footer sobre mi */
-.footer-sobremi {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-    margin-top: 4.5rem;
-}
-.footer-sobremi p {
-    font-size: 1.2rem;
-}
-.footer-sobremi .arrow-next {
-    font-size: 2rem;
-    margin-top: 1rem;
-    cursor: pointer;
-    transition: .2s all;
-    
-    background-color: var(--blue);
-    color: var(--white);
-    border: 2px solid var(--blue);
-    border-radius: 50%;
-}
-.footer-sobremi .arrow-next:hover {
-    color: var(--blue);
-    background-color: var(--white);
-}
 .sm-hobbie1 a,
 .sm-hobbie2 a {
     color: var(--blue);
@@ -69,4 +43,16 @@
         padding-left: 0;
         padding-top: 2rem;
     }
+}
+/* footer sobre mi */
+.footer-sm {
+    padding-top: 4rem;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.footer-sm p {
+    font-size: 1.2rem;
+    font-weight: 700;
 }

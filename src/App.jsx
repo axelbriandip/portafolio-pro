@@ -5,6 +5,7 @@ import './components/Nav';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import SobreMi from './components/SobreMi';
+import Abilities from './components/Abilities';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Nav/>
       <Home/>
       <SobreMi/>
+      <Abilities/>
     </div>
   )
 }

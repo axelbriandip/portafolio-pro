@@ -1,5 +1,8 @@
 import React from 'react';
 
+// import cv
+import cv from '../CV-abd.pdf';
+
 const SobreMi = () => {
     return (
         <section className='container-sobre-mi row'>
@@ -14,10 +17,6 @@ const SobreMi = () => {
             <article className="sm-hobbie1 col-md-6 col-sm-12">
                 <i className="fa-solid fa-shop"></i><h2>Propietario de mi tienda</h2>
                 <p>Otra faceta importante en mi vida se trata de mi propia tienda de ropa femenina, <a id='tooltip' href="https://instagram.com/mercurio.rg" target='_blank'>Mercurio Indumentaria<span id='tooltipText'>Visitar Instagram</span></a>. Funcionando de manera ininterrumpida desde junio del 2020. Tengo el orgullo de poder decir que es un emprendimiento propio que no para de crecer y con grandes aspiraciones para 2023.</p>
-            </article>
-            <article className='footer-sobremi col-md-12'>
-                <p>¿Te cuento mis habilidades?</p>
-                <i className="fa-solid fa-circle-arrow-down arrow-next"></i>
             </article>
         </section>
     );
