@@ -5,6 +5,7 @@
 @import './col2.css';
 @import './sobre-mi.css';
 @import './abilities.css';
+@import './projects.css';
 
 * {
     padding: 0;
