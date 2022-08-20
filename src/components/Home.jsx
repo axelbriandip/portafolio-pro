@@ -4,8 +4,7 @@ import React from 'react';
 import photo from '../img/foto-perfil1.jpg';
 
 // import cv
-import cv from '../utils/CV-abd.pdf';
-// test
+// import cv from '../utils/CV-abd.pdf';
 
 const Home = () => {
     return (
@@ -20,7 +19,7 @@ const Home = () => {
                         <i className="fa-brands fa-linkedin-in"></i>
                         <span id='tooltipText'>Visitar Linkedin</span>
                     </a>
-                    <a href={cv} download='CV - Axel Brian Dip.pdf' className="item-sm cv" id='tooltip'>
+                    <a href={photo} download='a' className="item-sm cv" id='tooltip'>
                         <i className="fa-solid fa-file"></i>
                         <span id='tooltipText'>Descargar CV</span>
                     </a>
