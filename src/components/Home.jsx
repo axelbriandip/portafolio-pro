@@ -5,6 +5,7 @@ import photo from '../img/foto-perfil1.jpg';
 
 // import cv
 import cv from '../utils/CV-abd.pdf';
+// test
 
 const Home = () => {
     return (
