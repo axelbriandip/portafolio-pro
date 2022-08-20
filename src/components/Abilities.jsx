@@ -15,7 +15,7 @@ const Abilities = () => {
                         </div>
                         <div className="flip-card-back">
                             <h1>REACT.JS</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero alias cupiditate adipisci assumenda distinctio odit accusamus quisquam.</p>
+                            <p>Sirve para desarrollar aplicaciones web de una manera más ordenada y con menos código.</p>
                         </div>
                     </div>
                 </div>
@@ -27,7 +27,7 @@ const Abilities = () => {
                         </div>
                         <div className="flip-card-back">
                             <h1>HTML</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero alias cupiditate adipisci assumenda distinctio odit accusamus quisquam.</p>
+                            <p>Sirve para estructurar y dar contenido al desarrollo de una página web a través de etiquetas.</p>
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ const Abilities = () => {
                         </div>
                         <div className="flip-card-back">
                             <h1>JAVASCRIPT</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero alias cupiditate adipisci assumenda distinctio odit accusamus quisquam.</p>
+                            <p>Sirve para añadir características interactivas y dinamismo a tu página. Es imprescindible para el desarrollo web.</p>
                         </div>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ const Abilities = () => {
                         </div>
                         <div className="flip-card-back">
                             <h1>CSS</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero alias cupiditate adipisci assumenda distinctio odit accusamus quisquam.</p>
+                            <p>Sirve para manejar el diseño y presentación de las páginas web, es decir, cómo lucen cuando un usuario las visita.</p>
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ const Abilities = () => {
                         </div>
                         <div className="flip-card-back">
                             <h1>GIT</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero alias cupiditate adipisci assumenda distinctio odit accusamus quisquam.</p>
+                            <p>Sirve para trabajar en equipo de una manera mucho más simple y óptima cuando estamos desarrollando.</p>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ const Abilities = () => {
                         </div>
                         <div className="flip-card-back">
                             <h1>BOOTSTRAP</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero alias cupiditate adipisci assumenda distinctio odit accusamus quisquam.</p>
+                            <p>Este framework facilita la maquetación de páginas web, ya que te permite crear una interfaz muy limpia y responsive.</p>
                         </div>
                     </div>
                 </div>

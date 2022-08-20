@@ -15,21 +15,21 @@ const Projects = () => {
                 <CardProject
                 photo={pokemon}
                 title={'Pokedex'}
-                description={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, maiores corporis! Architecto optio placeat accusantium eaque sit porro. Illum quia aliquid.'}
+                description={'Buscá tu pokemón preferido ya sea por nombre o tipo y obtené una vista detallada con toda su información.'}
                 link_github={'https://github.com/axelbriandip/pokedex'}
                 link_netlify={'https://pokedex-axelbriandip.netlify.app'}
                 />
                 <CardProject
                 photo={rym}
                 title={'Rick & Morty'}
-                description={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, maiores corporis! Architecto optio placeat accusantium eaque sit porro. Illum quia aliquid.'}
+                description={'Encontrá, universo por universo, todos los personajes correspondientes y conocé sus datos más importantes.'}
                 link_github={'https://github.com/axelbriandip/rickAndMorty'}
                 link_netlify={'https://rickandmorty-academlo.netlify.app'}
                 />
                 <CardProject
                 photo={ecommerce}
                 title={'Ecommerce'}
-                description={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, maiores corporis! Architecto optio placeat accusantium eaque sit porro. Illum quia aliquid.'}
+                description={'Create un usuario, logeate y buscá el producto que más te guste a través de filtros, obtené una vista detallada de cada uno y agregalos al carrito de compras.'}
                 link_github={'https://github.com/axelbriandip/ecommerce'}
                 link_netlify={'https://ecommerce-axelbriandip.netlify.app'}
                 />
