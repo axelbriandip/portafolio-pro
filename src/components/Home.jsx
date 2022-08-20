@@ -4,7 +4,7 @@ import React from 'react';
 import photo from '../img/foto-perfil1.jpg';
 
 // import cv
-import cv from '../CV-abd.pdf';
+import cv from '../utils/CV-abd.pdf';
 
 const Home = () => {
     return (
