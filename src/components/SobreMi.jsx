@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import cv
-import cv from '../CV-abd.pdf';
+// import cv from '../CV-abd.pdf';
 
 const SobreMi = () => {
     return (
