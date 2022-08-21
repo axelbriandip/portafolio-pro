@@ -9,7 +9,7 @@ import CardProject from './CardProject';
 
 const Projects = () => {
     return (
-        <div className='container-projects'>
+        <div className='container-projects' id='goto-projects'>
             <h2>Algunos proyectos..</h2>
             <div className="container-cards-projects">
                 <CardProject

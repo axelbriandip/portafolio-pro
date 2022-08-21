@@ -13,7 +13,7 @@ const Home = () => {
     }
 
     return (
-        <section className='container-home'>
+        <section className='container-home' id='goto-home'>
             {/* circles */}
             <article className="circles col-md-5 col-sm-12">
                 <div className="photo animate__animated animate__backInDown">
@@ -42,7 +42,7 @@ const Home = () => {
                 <p className='description'>Me dedico al diseño, creación, realización y mantenimiento de páginas y/o aplicaciones web.</p>
                 <button className='btn-contactame'>Contactame</button>
             </article>
-            <article className="footer-home col-12 animate__animated animate__backInUp">
+            <article id='goto-aboutme' className="footer-home col-12 animate__animated animate__backInUp">
                 <p>¿Te cuento un poco más sobre mi?</p>
                 <i className="fa-solid fa-circle-arrow-down arrow-next"></i>
             </article>

@@ -11,7 +11,7 @@ body {
     background-image: linear-gradient(90deg, var(--green), var(--white));
 }
 .container-home {
-    padding: 6rem 2rem 2rem;
+    padding: 6rem 2rem 0 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -144,7 +144,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5rem;
+    padding-top: 5rem;
+    /* margin-top: 5rem; */
 }
 .footer-home p {
     font-size: 1.2rem;
@@ -169,7 +170,7 @@ body {
         gap: 0;
     }
     .text {
-        padding: 4rem 0;
+        /* padding: 4rem 0; */
     }
     .footer-home {
         margin-top: 0;

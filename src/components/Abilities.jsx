@@ -2,7 +2,7 @@ import React from 'react';
 
 const Abilities = () => {
     return (
-        <div className='section-abilities'>
+        <div className='section-abilities' id='goto-abilities'>
             <hr />
             <h2>Mis habilidades</h2>
             <p>A continuación, te cuento lo más importante que sé..</p>
