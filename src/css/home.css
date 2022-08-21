@@ -19,6 +19,10 @@ body {
     
     /* background-image: linear-gradient(90deg, var(--green), var(--white)); */
 }
+.href-footer-sm {
+    text-decoration: none;
+    color: var(--black);
+}
 /* circles */
 .photo, .linkedin, .cv, .github {
     border: 2px solid var(--blue);

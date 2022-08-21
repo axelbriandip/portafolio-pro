@@ -42,10 +42,12 @@ const Home = () => {
                 <p className='description'>Me dedico al diseño, creación, realización y mantenimiento de páginas y/o aplicaciones web.</p>
                 <button className='btn-contactame'>Contactame</button>
             </article>
-            <article id='goto-aboutme' className="footer-home col-12 animate__animated animate__backInUp">
-                <p>¿Te cuento un poco más sobre mi?</p>
-                <i className="fa-solid fa-circle-arrow-down arrow-next"></i>
-            </article>
+            <a href="#goto-aboutme" className='href-footer-sm'>
+                <article id='goto-aboutme' className="footer-home col-12 animate__animated animate__backInUp">
+                    <p>¿Te cuento un poco más sobre mi?</p>
+                    <i className="fa-solid fa-circle-arrow-down arrow-next"></i>
+                </article>
+            </a>
         </section>
     );
 };
