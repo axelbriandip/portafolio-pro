@@ -14,7 +14,7 @@ const Nav = () => {
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Sobre mí</a></li>
                     <li><a href="#">Mis habilidades</a></li>
-                    <li><a href="#">Portafolio</a></li>
+                    <li><a href="#">Proyectos</a></li>
                     <li><a href="#">Contacto</a></li>
                 </ul>
             </div>

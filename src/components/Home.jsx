@@ -24,7 +24,7 @@ const Home = () => {
                         <i className="fa-brands fa-linkedin-in"></i>
                         <span id='tooltipText'>Visitar Linkedin</span>
                     </a>
-                    <a href={cv} download className="item-sm cv" id='tooltip'>
+                    <a href={cv} download='CV - Axel Brian Dip' className="item-sm cv" id='tooltip'>
                     {/* <a href='#' onClick={cv_alert} className="item-sm cv" id='tooltip'> */}
                         <i className="fa-solid fa-file"></i>
                         <span id='tooltipText'>Descargar CV</span>
