@@ -4,11 +4,11 @@ import React from 'react';
 import photo from '../img/foto-perfil1.jpg';
 
 // import cv
-// import cv from '../utils/CV-abd.pdf';
+import cv from '../cv-abd.pdf';
 
 const Home = () => {
 
-    const cv = () => {
+    const cv_alert = () => {
         swal("Todavía no está cargado el CV");
     }
 
@@ -24,8 +24,8 @@ const Home = () => {
                         <i className="fa-brands fa-linkedin-in"></i>
                         <span id='tooltipText'>Visitar Linkedin</span>
                     </a>
-                    {/* <a href='#' download='a' className="item-sm cv" id='tooltip'> */}
-                    <a href='#' onClick={cv} className="item-sm cv" id='tooltip'>
+                    <a href={cv} download className="item-sm cv" id='tooltip'>
+                    {/* <a href='#' onClick={cv_alert} className="item-sm cv" id='tooltip'> */}
                         <i className="fa-solid fa-file"></i>
                         <span id='tooltipText'>Descargar CV</span>
                     </a>
