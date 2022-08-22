@@ -39,10 +39,10 @@ input[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
+/* input[type=submit]:hover {
     background-color: var(--white);
     color: var(--blue);
-}
+} */
 
 /* Add a background color and some padding around the form */
 .container-form {
@@ -54,7 +54,18 @@ input[type=submit]:hover {
     width: 85%;
     text-align: justify;
 }
+.text-contact .phone,
+.text-contact .email {
+    transition: .2s all;
+}
+.text-contact .phone:hover,
+.text-contact .email:hover {
+    color: var(--blue);
+}
 @media screen and (max-width: 767px) {
+    .text-contact {
+        padding-bottom: 2rem;
+    }
     .text-contact p {
         width: 100%;
     }

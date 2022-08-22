@@ -5,10 +5,14 @@ const Contact = () => {
         <div className='container-contact row' id='goto-contact'>
             <h2 className='col-md-12'>¡Contactame y trabajemos juntos!</h2>
             <div className='col-md-6 text-contact'>
-                <p>Si llegaste hasta acá y estas interesado/a en saber cómo puedo ayudar a tu empresa o tenes un proyecto en el que creas que pueda encajar, te invito a que dejarme un mensaje y con gusto me pondré en contacto contigo a la brevedad.</p>
-                <br /><br />
-                <p>Si llegaste hasta acá y estas interesado/a en saber cómo puedo ayudar a tu empresa o tenes un proyecto en el que creas que pueda encajar, te invito a que dejarme un mensaje y con gusto me pondré en contacto contigo a la brevedad.</p>
-                <br /><br />
+                <p>Espero que haya sido de tu agrado todo lo que viste en el portafolio y te haya despertado el interés en mi trabajo, ya que todo está hecho con muchísimo esfuerzo y dedicación.
+                <br/><br/>
+                Si llegaste hasta acá y estas interesado/a en saber cómo puedo ayudar a tu empresa o tenes un proyecto en el que creas que pueda encajar, te invito a dejarme un mensaje y con gusto me pondré en contacto contigo a la brevedad.
+                <br/><br/>
+                Podes escribirme directamente en el siguiente formulario, por email o por teléfono.</p>
+                <br/><br/><br/>
+                <div className='phone'><i className="fa-solid fa-phone-flip"></i> +54 2964-569727</div>
+                <div className='email'><i className="fa-solid fa-envelope"></i> axelbriandip.rg@gmail.com</div>
             </div>
             <div className="container-form col-md-6">
                 <form>

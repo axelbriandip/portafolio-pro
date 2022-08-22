@@ -1,5 +1,5 @@
 .container-projects {
-    padding: 2rem;
+    padding: 6rem 2rem 0 2rem;
 }
 .container-projects h2 {
     margin-bottom: 1rem;
@@ -77,4 +77,12 @@
     .container-cards-projects .card-project:nth-child(2) {
         align-self: flex-end;
     }
+}
+.text-projects p a {
+    text-decoration: none;
+    color: var(--blue);
+    font-weight: 700;
+}
+.text-projects {
+    padding-bottom: 2rem;
 }
