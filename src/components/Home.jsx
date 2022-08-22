@@ -39,7 +39,9 @@ const Home = () => {
                 <p className='name'><i className="fa-solid fa-hand animate__animated animate__wobble animate__delay-1s"></i> Soy <span>Axel Brian Dip</span>,</p>
                 <h1 className='title'>DESARROLLADOR <br/> FRONT-END.</h1>
                 <p className='description'>Me dedico al diseño, creación, realización y mantenimiento de páginas y/o aplicaciones web.</p>
-                <button className='btn-contactame'>Contactame</button>
+                <a href="#goto-contact">
+                    <button className='btn-contactame'>Contactame</button>
+                </a>
             </article>
             <a href="#goto-aboutme" className='href-footer-sm'>
                 <article id='goto-aboutme' className="footer-home col-12 animate__animated animate__backInUp">
