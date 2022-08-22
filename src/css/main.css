@@ -6,6 +6,7 @@
 @import './sobre-mi.css';
 @import './abilities.css';
 @import './projects.css';
+@import './contact.css';
 @import './footer.css';
 
 * {
@@ -14,6 +15,7 @@
     box-sizing: border-box;
     /* 200 (light), 400 (regular), 700 (bold) */
     font-family: 'Titillium Web', sans-serif;
+    outline: none;
 }
 :root {
     --black: #191E29;

@@ -8,9 +8,9 @@ import cv from '../cv-abd.pdf';
 
 const Home = () => {
 
-    const cv_alert = () => {
-        swal("Todavía no está cargado el CV");
-    }
+    // const cv_alert = () => {
+    //     swal("Todavía no está cargado el CV");
+    // }
 
     return (
         <section className='container-home' id='goto-home'>
@@ -25,7 +25,6 @@ const Home = () => {
                         <span id='tooltipText'>Visitar Linkedin</span>
                     </a>
                     <a href={cv} download='CV - Axel Brian Dip' className="item-sm cv" id='tooltip'>
-                    {/* <a href='#' onClick={cv_alert} className="item-sm cv" id='tooltip'> */}
                         <i className="fa-solid fa-file"></i>
                         <span id='tooltipText'>Descargar CV</span>
                     </a>

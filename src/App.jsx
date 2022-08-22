@@ -8,6 +8,7 @@ import SobreMi from './components/SobreMi';
 import Abilities from './components/Abilities';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <SobreMi/>
       <Abilities/>
       <Projects/>
+      <Contact/>
       <Footer/>
     </div>
   )
