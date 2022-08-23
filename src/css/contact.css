@@ -62,6 +62,10 @@ input[type=submit] {
 .text-contact .email:hover {
     color: var(--blue);
 }
+.fa-phone-flip, 
+.fa-envelope {
+    margin-right: .3rem;
+}
 @media screen and (max-width: 767px) {
     .text-contact {
         padding-bottom: 2rem;

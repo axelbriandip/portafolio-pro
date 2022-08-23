@@ -15,16 +15,20 @@ const Contact = () => {
                 <div className='email'><i className="fa-solid fa-envelope"></i> axelbriandip.rg@gmail.com</div>
             </div>
             <div className="container-form col-md-6">
-                <form>
-                    <label htmlFor="fname">Nombre</label>
-                    <input type="text" id="fname" name="firstname" placeholder="¿Cómo te llamas?"/>
-                    {/* <label for="email">Correo electrónico</label>
-                    <input type="email" id="email" name="email" placeholder="¿Cuál es tu correo electrónico?"/> */}
-
-                    <label htmlFor="subject">Mensaje</label>
-                    <textarea id="subject" name="subject" placeholder="Escribí tu mensaje.." style={{height:'200px'}}></textarea>
-
+                <form action="https://formsubmit.co/axelbriandip.rg@gmail.com" method="POST">
+                    <label htmlFor="name">Nombre</label>
+                    <input type="text" id="name" name="name" placeholder="¿Cómo te llamas?" required/>
+                    <label htmlFor="message">Mensaje</label>
+                    <textarea id="message" name="message" placeholder="Escribí tu mensaje.." style={{height:'200px'}}   required></textarea>
                     <input type="submit" value="Enviar mensaje"></input>
+                    {/* cambiar template */}
+                    <input type="hidden" name="_template" value="box"/>
+                    {/* valor por default del asunto */}
+                    <input type="hidden" name="_subject" value="&#128235; ¡Nuevo mensaje del portafolio!"/>
+                    {/* ¿A dónde va? */}
+                    <input type="hidden" name='_next' value='http://localhost:3000/'/>
+                    {/* Sin captcha */}
+                    <input type="hidden" name='_captcha' value={false} />
                 </form>
             </div>
         </div>
