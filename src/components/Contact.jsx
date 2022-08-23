@@ -1,6 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Contact = () => {
+    const [ name, setName ] = useState('');
+    const [ message, setMessage ] = useState('');    
+    const alertConfirm = () => {
+        if(name != '' && message != '') {
+            swal("¡Correo enviado!", "Muchas gracias por ponerte en contacto conmigo.", "success");
+        }
+    }
+
     return (
         <div className='container-contact row' id='goto-contact'>
             <h2 className='col-md-12'>¡Contactame y trabajemos juntos!</h2>
@@ -15,18 +23,19 @@ const Contact = () => {
                 <div className='email'><i className="fa-solid fa-envelope"></i> axelbriandip.rg@gmail.com</div>
             </div>
             <div className="container-form col-md-6">
-                <form action="https://formsubmit.co/axelbriandip.rg@gmail.com" method="POST">
+                <form onSubmit={alertConfirm} action="https://formsubmit.co/axelbriandip.rg@gmail.com" method="POST">
                     <label htmlFor="name">Nombre</label>
-                    <input type="text" id="name" name="name" placeholder="¿Cómo te llamas?" required/>
+                    <input value={name} onChange={e => setName(e.target.value)} type="text" id="name" name="name" placeholder="¿Cómo te llamas?" required/>
                     <label htmlFor="message">Mensaje</label>
-                    <textarea id="message" name="message" placeholder="Escribí tu mensaje.." style={{height:'200px'}}   required></textarea>
-                    <input type="submit" value="Enviar mensaje"></input>
+                    <textarea value={message} onChange={e => setMessage(e.target.value)} id="message" name="message" placeholder="Escribí tu mensaje.." style={{height:'200px'}} required></textarea>
+                    <input  type="submit" value="Enviar mensaje"></input>
                     {/* cambiar template */}
                     <input type="hidden" name="_template" value="box"/>
                     {/* valor por default del asunto */}
                     <input type="hidden" name="_subject" value="&#128235; ¡Nuevo mensaje del portafolio!"/>
                     {/* ¿A dónde va? */}
                     <input type="hidden" name='_next' value='https://axelbriandip.netlify.app/'/>
+                    {/* <input type="hidden" name='_next' value='http://localhost:3000/'/> */}
                     {/* Sin captcha */}
                     <input type="hidden" name='_captcha' value={false} />
                 </form>
