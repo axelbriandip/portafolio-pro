@@ -26,7 +26,7 @@ const Contact = () => {
                     {/* valor por default del asunto */}
                     <input type="hidden" name="_subject" value="&#128235; ¡Nuevo mensaje del portafolio!"/>
                     {/* ¿A dónde va? */}
-                    <input type="hidden" name='_next' value='http://localhost:3000/'/>
+                    <input type="hidden" name='_next' value='https://axelbriandip.netlify.app/'/>
                     {/* Sin captcha */}
                     <input type="hidden" name='_captcha' value={false} />
                 </form>
