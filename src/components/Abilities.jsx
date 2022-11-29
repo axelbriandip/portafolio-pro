@@ -20,14 +20,14 @@ const Abilities = () => {
                     </div>
                 </div>
 
-                <div className="flip-card card-html">
+                <div className="flip-card">
                     <div className="flip-card-inner">
                         <div className="flip-card-front">
-                            <i className="fa-brands fa-html5"></i>
+                            <i className="fa-brands fa-node-js"></i>
                         </div>
                         <div className="flip-card-back">
-                            <h1>HTML</h1>
-                            <p>Sirve para estructurar y dar contenido al desarrollo de una página web a través de etiquetas.</p>
+                            <h1>NODE.JS</h1>
+                            <p>Es un entorno de ejecución de Javascript que se orienta a eventos asíncronos y permite construir aplicaciones en red escalables.</p>
                         </div>
                     </div>
                 </div>
@@ -45,6 +45,18 @@ const Abilities = () => {
                 </div>
 
                 <div className="flip-card">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <i className="fa-brands fa-git-alt"></i>
+                            </div>
+                            <div className="flip-card-back">
+                                <h1>GIT</h1>
+                                <p>Sirve para trabajar en equipo de una manera mucho más simple y óptima cuando estamos desarrollando.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="flip-card">
                     <div className="flip-card-inner">
                         <div className="flip-card-front">
                             <i className="fa-brands fa-css3-alt"></i>
@@ -56,26 +68,14 @@ const Abilities = () => {
                     </div>
                 </div>
 
-                <div className="flip-card">
+                <div className="flip-card card-html">
                     <div className="flip-card-inner">
                         <div className="flip-card-front">
-                            <i className="fa-brands fa-git-alt"></i>
+                            <i className="fa-brands fa-html5"></i>
                         </div>
                         <div className="flip-card-back">
-                            <h1>GIT</h1>
-                            <p>Sirve para trabajar en equipo de una manera mucho más simple y óptima cuando estamos desarrollando.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="flip-card">
-                    <div className="flip-card-inner">
-                        <div className="flip-card-front">
-                            <i className="fa-brands fa-bootstrap"></i>
-                        </div>
-                        <div className="flip-card-back">
-                            <h1>BOOTSTRAP</h1>
-                            <p>Este framework facilita la maquetación de páginas web, ya que te permite crear una interfaz muy limpia y responsive.</p>
+                            <h1>HTML</h1>
+                            <p>Sirve para estructurar y dar contenido al desarrollo de una página web a través de etiquetas.</p>
                         </div>
                     </div>
                 </div>
