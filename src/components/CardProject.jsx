@@ -11,7 +11,7 @@ const CardProject = ({ photo, title , description, link_github, link_netlify}) =
                     <br/>
                     <div className="links-project">
                         <a href={link_github} target='_blank' className='github-project'>Ver Github</a>
-                        <a href={link_netlify} target='_blank'>Ver Netlify</a>
+                        <a href={link_netlify} target='_blank'>Ver demo</a>
                     </div>
                 </div>
             </div>
